@@ -13,7 +13,7 @@ form.addEventListener('submit', (element) => {
     getLyrics()
 
     const lyrics = document.querySelector('#lyrics')
-    lyrics.innerHTML = '<img src="../img/loading.svg" class="animate-spin w-8 m-auto mt-4">'
+    lyrics.innerHTML = '<img src="https://www.flaticon.com/svg/vstatic/svg/3208/3208743.svg?token=exp=1615477413~hmac=4c06d58e97af29b628f98ddb394d833d" class="animate-spin w-8 m-auto mt-4">'
 })
 
 async function getLyrics (){
