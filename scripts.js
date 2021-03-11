@@ -13,7 +13,7 @@ form.addEventListener('submit', (element) => {
     getLyrics()
 
     const lyrics = document.querySelector('#lyrics')
-    lyrics.innerHTML = '<img src="../loading.svg" class="animate-spin w-8 m-auto mt-4">'
+    lyrics.innerHTML = '<img src="../img/loading.svg" class="animate-spin w-8 m-auto mt-4">'
 })
 
 async function getLyrics (){
