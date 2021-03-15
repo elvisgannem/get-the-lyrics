@@ -4,16 +4,12 @@ function findLyrics (artist, song) {
 
 const form = document.querySelector('#form')
 
-
-
-
-
 form.addEventListener('submit', (element) => {
     element.preventDefault()
     getLyrics()
 
     const lyrics = document.querySelector('#lyrics')
-    lyrics.innerHTML = '<img src="../img/loading.svg" class="animate-spin w-8 m-auto mt-4">'
+    lyrics.innerHTML = '<img src="./img/loading.svg" class="animate-spin w-8 m-auto mt-4">'
 })
 
 async function getLyrics (){
